@@ -23,5 +23,7 @@ namespace TailSpin.SpaceGame.Web.Models
         // The game style (difficulty) the score is associated with.
         [JsonProperty(PropertyName = "gameStyle")]
         public string GameStyle { get; set; }
+
+        public string Field1 { get; set; }
     }
 }
